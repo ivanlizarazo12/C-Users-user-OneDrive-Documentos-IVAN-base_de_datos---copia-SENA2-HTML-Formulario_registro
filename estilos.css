@@ -1,0 +1,73 @@
+#vamo{
+    margin-left: 20%;
+    margin-right: 25%;
+    padding: 10px;
+    border: black 3px solid;
+    background-color: rgb(224, 224, 230);
+    width: 5%;
+    height: 5vh;
+    float: center;
+}
+#a{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1px;
+    border: black 2px solid;
+    background-color: rgb(248, 247, 247);
+    width: 250px;
+    height: 2vh;
+    float: center;
+}
+#b{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1px;
+    border: black 2px solid;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 2vh;
+    float: center;
+}
+#c{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1px;
+    border: black 2px solid;
+    background-color: rgb(245, 245, 244);
+    width: 250px;
+    height: 2vh;
+    float: center;
+}
+#d{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1px;
+    border: black 2px solid;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 2vh;
+    float: center;
+}
+#e{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1px;
+    border: black 2px solid;
+    background-color: rgb(252, 252, 252);
+    width: 250px;
+    height: 2vh;
+    float: center;
+}
+#fe{
+    color: rgb(252, 252, 252);
+}
+#so{
+    width: 400px;
+    height: 5vh;
+    background-color: rgb(150, 7, 194);
+    color: aliceblue;
+    float: center;
+}
+#yu{
+    color: rgb(144, 42, 165);
+}

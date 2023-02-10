@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <center><table>
+        <tr id="vamo">
+            <td><h1 id="fe">-----------Formulario-----------</h1></td>
+            <tr id="vamo">
+                <td>
+                    <input type="text" name="Nombre" placeholder="Nombres." id="a">
+                </td>
+            </tr>
+            <tr id="vamo">
+                <td>
+                    <input type="text" name="Apellido" placeholder="Apelidos." id="b">
+                </td>
+            </tr>
+            <tr id="vamo">
+                <td>
+                    <input type="datetime-local" name="FechaN" id="c">
+                </td>
+            </tr>
+            <tr id="vamo">
+                <td>
+                    <input type="email" name="Correo"  placeholder="Digite su Correo." id="d">
+                </td>
+            </tr>
+            <tr id="vamo">
+                <td>
+                    <input type="password" name="Contraseña" placeholder="Digite su Contraceña." id="e">
+                </td>
+            </tr>
+            <tr id="vamo">
+                <td>
+                    <input type="radio" name="asd" id="ca" value="Hombre">
+                    <label for="ca" id="fe">Masculino</label>
+                    <input type="radio" name="asd" id="a2" value="Mujer">
+                    <label for="a2" id="fe">Femeniono</label>
+                </td>
+            </tr>
+            <tr id="vamo">
+                <td>
+                    <input type="button" value="Registrar" id="so" onclick="registrar()">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h1 id="yu"></h1>
+                    <h1 id="uu"></h1>
+                </td>
+            </tr>
+        </tr>
+    </table></center>
+    <script>
+        function registrar(){
+            let info=[]
+            let datos={}
+            let a=document.getElementById("a").value
+            let b=document.getElementById("b").value
+            let c=document.getElementById("c").value
+            let d=document.getElementById("d").value
+            let e=document.getElementById("e").value
+            let f=document.getElementById("ca");
+            let g=document.getElementById("a2");
+            let genero=""
+            document.getElementById("yu").innerText="Correcto"
+            if (g.checked){
+                genero="FEMENINO"
+            }if (f.checked){
+                genero="MASCULINO"
+            }
+            if (genero===""){
+                document.getElementById("yu").innerText="Falta seleccionar genero"
+            }
+            if (e===""){
+                document.getElementById("yu").innerText="Falta contraseña"
+            }
+            if (d===""){
+                document.getElementById("yu").innerText="Falta correo"
+            }
+            if (c===""){
+                document.getElementById("yu").innerText="Falta completar Fecha"
+            }
+            if (b===""){
+                document.getElementById("yu").innerText="Falta completar casilla Apellidos"
+            }
+            if (a===""){
+                document.getElementById("yu").innerText="Falta completar casilla Nombres"
+            }
+        }
+    </script>
+</body>
+</html>
